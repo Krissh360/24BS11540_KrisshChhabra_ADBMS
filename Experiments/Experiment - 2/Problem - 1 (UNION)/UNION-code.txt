@@ -1,0 +1,1 @@
+SELECT * FROM Arts union SELECT * FROM Science;

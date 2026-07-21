@@ -1,0 +1,3 @@
+select f_name FROM fruit
+except
+select inv_name FROM inventory

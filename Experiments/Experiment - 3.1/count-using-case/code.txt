@@ -1,0 +1,4 @@
+SELECT department, count (case WHEN marks > 80 THEN 1 END)
+as Dept_HighScore_Count
+FROM student
+GROUP BY department;

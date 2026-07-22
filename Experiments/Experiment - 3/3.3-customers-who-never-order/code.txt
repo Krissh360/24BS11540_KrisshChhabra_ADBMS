@@ -1,0 +1,2 @@
+SELECT name as Customers from Customers
+WHERE id not in (SELECT customerID from Orders)
